@@ -1,0 +1,6 @@
+requests
+robotframework
+robotframework-requests
+jsonschema==2.5.1
+jsonpath-rw
+jsonselect
