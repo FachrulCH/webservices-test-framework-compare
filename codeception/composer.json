@@ -1,6 +1,7 @@
 {
     "require": {
-        "codeception/codeception": "^2.3"
+        "codeception/codeception": "^2.3",
+        "flow/jsonpath": "^0.3.4"
     },
     "require-dev": {
         "cnam/codeception-json-schema": "^0.0.1"

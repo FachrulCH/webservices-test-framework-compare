@@ -3,9 +3,10 @@
 ## Cara jalanin:
 ### Codeception
 install dependency nya
-`./codeception/composer install`
-jalanin test
-`./codeception/vendor/codeception/codeception/codecept run -vvv` verbose mode
+`./composer install`
+jalanin test (udah di dalam folder codeception)
+`./vendor/codeception/codeception/codecept run -vvv` verbose mode
+`./vendor/codeception/codeception/codecept run --html` disertai dengan report HTML di folder `_output`
 
 ### Postman
 Collection bisa di import di postman web, atau klo mau pake cli mode bisa menggunakan newman

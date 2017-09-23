@@ -8,3 +8,6 @@ $I->seeResponseIsJson();
 $I->seeResponseCodeIs(HttpCode::OK); // 200
 $I->seeResponseContains("19BBY");
 $I->seeResponseContainsJson(["name" => "Luke Skywalker"]);
+
+// *** validasi skema JSON *** //
+$I->canSeeResponseIsValidOnSchemaFile(codecept_data_dir('people-schema.json'));
