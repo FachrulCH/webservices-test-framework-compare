@@ -1,0 +1,8 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - REST:
+              url: https://swapi.co/api/
+              depends: PhpBrowser
+              part: Json
+        - \Helper\Api
