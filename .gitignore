@@ -1,2 +1,6 @@
 /codeception/vendor/*
 /postman/node_modules/*
+/robotframework/*.xml
+/robotframework/*.html
+/restassured/.idea
+/restassured/target/*

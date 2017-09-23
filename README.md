@@ -14,3 +14,8 @@ Install dependency nya
 `./postman/npm install`
 Jalanin test
 `npm test` atau `newman run StarWarsAPI.postman_collection.json`
+
+
+### Robot
+Install dependencies
+`pip install -r requirements.txt`
